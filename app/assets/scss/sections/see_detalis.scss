@@ -1,0 +1,66 @@
+    
+    .see_detalis{
+       text-align:center;
+       background: url("../img/run1.png")  no-repeat  100% 0;
+       background-size: cover;
+       padding: 210px 0 437px 0;
+
+    
+    .wrapper{
+      padding-right: 0;
+      text-align: right; 
+      margin-right: 37%;
+    }
+    .run{
+      display: inline-block;
+        margin-bottom: 62px;
+    
+    .text_run {
+      color:white; 
+      font-size:55px;
+      font-weight:bold;
+      
+    }
+}
+
+    .button{
+      background: #000000;
+      height: 50px;
+      width: 220px;
+      border: 1px solid  #000000;
+      color:white;     
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+
+  .see_detalis{
+    .wrapper{
+      margin-left: 20%;
+      margin-right: 0;
+      text-align: left;
+    }
+  }
+}
+
+
+@media (max-width: 767px) {
+
+  .see_detalis{
+    .wrapper{
+    
+      margin-right: 10%;
+      margin-left: 0;
+      text-align: right;
+      .button{
+        background: #000000;
+        height: 50px;
+        width: 75%;
+        border: 1px solid  #000000;
+        color:white;     
+      }
+
+  }
+}
+}

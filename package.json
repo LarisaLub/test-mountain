@@ -1,0 +1,34 @@
+{
+    "name": "app-na",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "dependencies": {
+        "jquery": "^3.4.1",
+        "owl.carousel": "^2.3.4",
+        "query": "^0.2.0"
+    },
+    "devDependencies": {
+        "browser-sync": "^2.26.7",
+        "browserify": "^16.2.3",
+        "gulp": "^3.9.1",
+        "gulp-rename": "^1.4.0",
+        "gulp-sass": "^4.0.2",
+        "gulp.spritesmith": "^6.11.0",
+        "node-sass": "^4.9.3",
+        "npm": "6.12.0",
+        "rebuild": "^0.1.2",
+        "rename": "^1.0.4",
+        "rimraf": "^2.6.2",
+        "run-sequence": "^2.2.1",
+        "vinyl-buffer": "^1.0.1",
+        "vinyl-source-stream": "^2.0.0"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "sprite": "./node_modules/gulp/bin/gulp.js sprite",
+        "server": "./node_modules/gulp/bin/gulp.js server"
+    },
+    "author": "",
+    "license": "ISC"
+}

@@ -1,0 +1,65 @@
+.content_fotoMount{
+    height: 1021px;
+    background: url("../img/maunt.png") no-repeat;
+    background-size:cover; 
+    padding-left: 230px;
+
+    .title {
+        color: #fff;
+        padding: 286px 800px 84px 0;
+        text-align:left;
+    }
+    .content{
+        color: #fff;
+        width: 670px;
+        p{
+            margin-bottom: 52px;
+            text-align:left;
+        }
+    }
+   
+}  
+
+
+@media (min-width: 768px) and (max-width: 992px) {
+    
+    .content_fotoMount{
+        background: url("../img/maunt.png") no-repeat 98% 0;
+        padding-left: 0;
+        
+        .title{
+            width: 50%;
+        }
+      .content{
+        width: 50%;
+        p{
+            margin-bottom: 12px;    
+        }
+         }
+    }
+}
+  
+@media (max-width: 767px) {
+
+    .content_fotoMount{
+    background: none;
+    background: #fff; 
+    padding-left: 0;
+    padding-right: 0;
+
+    .title {
+        color: black;
+        padding: 100px 200px 15px 0;
+        text-align:center;
+    }
+    .content{
+        color: black;
+        width: 25%;
+        p{
+            margin-bottom: 2px;
+            text-align:center;
+        }
+    }
+   
+}  
+}

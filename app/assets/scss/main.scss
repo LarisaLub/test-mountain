@@ -1,0 +1,49 @@
+@import "./sections/header.scss";
+@import "./sections/see_detalis.scss";
+@import "./sections/slider.scss";
+@import "./sections/content.scss";
+@import "./sections/typography.scss";
+@import "./sections/footer.scss";
+* {
+  margin: 0;
+  padding: 0;
+  font-family:'Open Sans', sans-serif;
+  }
+
+
+
+@media (max-width: 767px) {
+
+      .container {
+        padding: 0 20px; 
+        margin: 0 auto;
+      }
+    }
+   
+    
+  @media (min-width: 768px) and (max-width: 992px) {
+    .container {
+      width: 750px;
+      margin: 0 auto;
+    }
+  }
+  
+  @media (min-width: 992px) and (max-width: 1199px) {
+    .container {
+      width: 970px;
+      margin: 0 auto;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    .container {
+      width: 1170px;
+      margin: 0 auto;
+    }
+  }
+  .flex_box{
+      display: flex;
+
+  }
+  
+  
