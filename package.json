@@ -15,7 +15,7 @@
         "gulp-rename": "^1.4.0",
         "gulp-sass": "^4.0.2",
         "gulp.spritesmith": "^6.11.0",
-        "node-sass": "^4.9.3",
+        "node-sass": "^4.13.1",
         "npm": "6.12.0",
         "rebuild": "^0.1.2",
         "rename": "^1.0.4",
